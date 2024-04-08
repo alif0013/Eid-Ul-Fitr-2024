@@ -6,6 +6,11 @@ const App = () => {
     <div>
       <div>
         <Banner/>
+        
+        <div className='text-center'>
+        {/* <Celebration></Celebration> */}
+        </div>
+
       </div>
     </div>
   );

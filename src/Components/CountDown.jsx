@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
+import Celebration from "./Celebration";
 
 const CountdownTimer = () => {
   const calculateTimeLeft = () => {
-    const difference = +new Date("2024-04-10") - +new Date();
+    const difference = +new Date("2024-04-11") - +new Date();
     let timeLeft = {};
 
     if (difference > 0) {
@@ -44,9 +45,14 @@ const CountdownTimer = () => {
   return (
     <div className="flex justify-center my-5">
       {timerComponents.length ? (
-        <h1 className="md:text-xl font-medium text-green-400 p-4 bg-white rounded"> {timerComponents} </h1>
+        <h1 className="md:text-xl font-medium text-green-400 p-4 bg-black rounded"> {timerComponents} </h1>
       ) : (
-        <span className="text-2xl md:text-5xl rounded-md drop-shadow-md bg-white p-4 text-green-400 font-mono font-semibold hover:bg-rose-500 hover:text-white hover:drop-shadow-lg">EId Mubarak!</span>
+
+        <>
+          <Celebration></Celebration>
+          <span className="text-2xl md:text-5xl rounded-md drop-shadow-md bg-white p-4 text-green-400 font-mono font-semibold hover:bg-rose-500 hover:text-white hover:drop-shadow-lg">EId Mubarak!</span>
+
+        </>
       )}
     </div>
   );
