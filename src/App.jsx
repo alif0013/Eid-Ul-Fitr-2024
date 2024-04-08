@@ -1,6 +1,5 @@
-import React from 'react';
-import Countdown from './Components/CountDown';
 import Banner from './Components/Banner';
+import Celebration from './Components/Celebration';
 
 const App = () => {
   return (
@@ -8,7 +7,6 @@ const App = () => {
       <div>
         <Banner/>
       </div>
-      <Countdown/>
     </div>
   );
 };
