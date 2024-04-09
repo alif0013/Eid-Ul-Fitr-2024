@@ -3,7 +3,7 @@ import Celebration from "./Celebration";
 
 const CountdownTimer = () => {
   const calculateTimeLeft = () => {
-    const difference = +new Date("2024-04-11") - +new Date();
+    const difference = +new Date("2024-04-8") - +new Date();
     let timeLeft = {};
 
     if (difference > 0) {
@@ -50,7 +50,7 @@ const CountdownTimer = () => {
 
         <>
           <Celebration></Celebration>
-          <span className="text-2xl md:text-5xl rounded-md drop-shadow-md bg-white p-4 text-green-400 font-mono font-semibold hover:bg-rose-500 hover:text-white hover:drop-shadow-lg">EId Mubarak!</span>
+          <span className="text-2xl md:text-5xl rounded-md drop-shadow-md bg-black p-4 text-green-500 font-mono font-semibold hover:bg-rose-500 hover:text-white hover:drop-shadow-lg">EId Mubarak!</span>
 
         </>
       )}

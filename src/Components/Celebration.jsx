@@ -19,7 +19,7 @@ const Celebration = () => {
       } */}
 
        <Confetti
-        width={200}
+        width={300}
         height={500}
         numberOfPieces={200}
         tweenDuration={1000}
