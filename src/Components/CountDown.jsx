@@ -51,6 +51,7 @@ const CountdownTimer = () => {
         </>
       ) : (
 
+        
         <>
           <Celebration></Celebration>
           <h1 className="text-2xl md:text-5xl rounded-md drop-shadow-md bg-black p-4 text-green-400 border-purple-600 border-[1px]  font-semibold  hover:text-blue-600 hover:drop-shadow-lg">EId Mubarak !</h1>
